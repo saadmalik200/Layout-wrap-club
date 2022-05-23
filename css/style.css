@@ -1,0 +1,106 @@
+/*******************/
+/* GOOGLE FONTS */
+/*******************/
+
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap");
+
+/*******************/
+/* SOFT RESET */
+/*******************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*******************/
+/* FONT RESET */
+/*******************/
+
+html {
+  font-size: 62.5%;
+}
+
+/***************/
+/* GENERAL */
+/***************/
+
+body {
+  font-size: 1.6rem;
+  font-family: "Jura", sans-serif;
+  background-color: rgb(190, 190, 190);
+}
+
+/***************/
+/* NAV BAR */
+/***************/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  background-color: rgba(92, 92, 92, 0.575);
+  padding: 1rem 6rem;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 6rem;
+  align-items: center;
+  color: white;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+/***************/
+/* SECTION */
+/***************/
+
+section {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+section div {
+  width: 50%;
+}
+
+/****************************/
+/* RIGHT IMAGE CONTAINER*/
+/***************************/
+
+.img-right img {
+  margin-top: 5.7rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/**************************/
+/* LEFT IMAGE CONTAINER*/
+/**************************/
+
+.img-left {
+  background-image: url(../assets/background.jpg);
+  background-size: 160%;
+  background-position: left 15%;
+  background-repeat: no-repeat;
+}
+
+.img-left p {
+  color: red;
+  font-size: 15rem;
+  font-weight: 700;
+  text-align: center;
+  writing-mode: vertical-lr;
+  margin: 12rem auto;
+}
